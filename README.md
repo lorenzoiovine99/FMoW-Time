@@ -52,18 +52,22 @@ Implemented using the [CapyMOA](https://capymoa.org) library.
 - **Eval-Stream (EA)**: Train 90% / Test 10% yearly.
 - **Prequential Evaluation**: Test before training incrementally.
 
-Metrics:
+### Metrics:
 
 - **In-Distribution (ID)** Accuracy
 - **Out-of-Distribution (OOD)** Accuracy
 
 
 ## 📚 Citation
-Please cite this paper if you use this code or results:
+
+If you find this work useful or use this code for your own research, please cite our paper as follows:
+
+```bibtex
 @inproceedings{iovine2025towards,
   title={Towards Streaming Land Use Classification of Images with Temporal Distribution Shifts},
   author={Iovine, Lorenzo and Ziffer, Giacomo and Proia, Andrea and Della Valle, Emanuele},
   booktitle={ESANN 2025},
   year={2025}
 }
+
 
